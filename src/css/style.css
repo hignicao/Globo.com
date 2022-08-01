@@ -25,51 +25,51 @@ header .menu a {
 	line-height: 23.75px;
 }
 
-header .menu .menu-g1 {
+header .menu a:nth-child(1) {
 	color: #c3170c;
 }
 
-header .menu .menu-oglobo {
+header .menu a:nth-child(2) {
 	color: #1e4b9b;
 }
 
-header .menu .menu-valor {
+header .menu a:nth-child(3) {
 	color: #006766;
 }
 
-header .menu .menu-ge {
+header .menu a:nth-child(4) {
 	color: #07aa47;
 }
 
-header .menu .menu-cartola {
+header .menu a:nth-child(5) {
 	color: #e3662b;
 }
 
-header .menu .menu-globoplay {
+header .menu a:nth-child(6) {
 	color: #fb0735;
 }
 
-header .menu .menu-dropz {
+header .menu a:nth-child(7) {
 	color: #ff75bb;
 }
 
-header .menu .menu-gshow {
+header .menu a:nth-child(8) {
 	color: #ec7d00;
 }
 
-header .menu .menu-quem {
+header .menu a:nth-child(9) {
 	color: #323333;
 }
 
-header .menu .menu-receitas {
+header .menu a:nth-child(10) {
 	color: #a81d83;
 }
 
-header .menu .menu-tech {
+header .menu a:nth-child(11) {
 	display: none;
 }
 
-header .menu .menu-videos {
+header .menu a:nth-child(12) {
 	display: none;
 }
 

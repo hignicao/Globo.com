@@ -21,40 +21,40 @@
 		line-height: 23.75px;
 	}
 
-	header .menu .menu-oglobo {
+	header .menu a:nth-child(2) {
 		display: none;
 	}
 
-	header .menu .menu-valor {
+	header .menu a:nth-child(3) {
 		display: none;
 	}
 
-	header .menu .menu-cartola {
+	header .menu a:nth-child(5) {
 		display: none;
 	}
 
-	header .menu .menu-globoplay {
+	header .menu a:nth-child(6) {
 		display: none;
 	}
 
-	header .menu .menu-dropz {
+	header .menu a:nth-child(7) {
 		display: none;
 	}
 
-	header .menu .menu-quem {
+	header .menu a:nth-child(9) {
 		display: none;
 	}
 
-	header .menu .menu-receitas {
+	header .menu a:nth-child(10) {
 		display: none;
 	}
 
-	header .menu .menu-tech {
+	header .menu a:nth-child(11) {
 		display: block;
 		color: #666666;
 	}
 
-	header .menu .menu-videos {
+	header .menu a:nth-child(12) {
 		display: block;
 		color: #0769de;
 	}
