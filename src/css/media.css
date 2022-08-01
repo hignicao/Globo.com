@@ -1,0 +1,233 @@
+/* -------------------RESPONSIVO-------------------- */
+
+@media (max-width: 426px) {
+	/* -----------HEADER----------- */
+
+	header img {
+		width: 208px;
+		display: block;
+		margin: 15px auto;
+	}
+
+	header .menu {
+		justify-content: space-evenly;
+		border-top: 1px solid #e6e6e6;
+		border-bottom: 1px solid #e6e6e6;
+		margin-bottom: 16px;
+	}
+
+	header .menu a {
+		padding: 15px 4px;
+		line-height: 23.75px;
+	}
+
+	header .menu .menu-oglobo {
+		display: none;
+	}
+
+	header .menu .menu-valor {
+		display: none;
+	}
+
+	header .menu .menu-cartola {
+		display: none;
+	}
+
+	header .menu .menu-globoplay {
+		display: none;
+	}
+
+	header .menu .menu-dropz {
+		display: none;
+	}
+
+	header .menu .menu-quem {
+		display: none;
+	}
+
+	header .menu .menu-receitas {
+		display: none;
+	}
+
+	header .menu .menu-tech {
+		display: block;
+		color: #666666;
+	}
+
+	header .menu .menu-videos {
+		display: block;
+		color: #0769de;
+	}
+
+	/* -----------MAIN----------- */
+
+	main {
+		display: inline-block;
+	}
+
+	main img {
+		border-radius: 5px;
+	}
+
+	.divisaoPrincipal {
+		padding: 0 auto;
+		max-width: 345px;
+	}
+
+	/* -----------NOTICIA DESTAQUE----------- */
+
+	.noticiasEmDestaque {
+		padding-bottom: 10px;
+	}
+
+	.noticiasEmDestaque .noticia-destaque {
+		color: #c4160c;
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 15px;
+		line-height: 40px;
+	}
+
+	.noticiasEmDestaque .noticia-secundaria {
+		color: #c4160c;
+		font-size: 18px;
+		font-weight: 700;
+		margin-bottom: 5px;
+		line-height: 24.51px;
+	}
+
+	/* -----------NOTICIA DESTAQUE COM IMAGES----------- */
+
+	.destaqueComImagens {
+		display: inline-block;
+		padding: 0;
+	}
+
+	.destaqueComImagens .destaque .noticia-imagem-titulo {
+		display: flex;
+		gap: 10px;
+		align-items: flex-start;
+		margin-top: 20px;
+	}
+
+	.destaqueComImagens .destaque .noticia-imagem-titulo img {
+		max-width: 120px;
+	}
+
+	.destaqueComImagens .destaque .noticia-imagem-titulo h2 {
+		display: none;
+	}
+
+	.destaqueComImagens .destaque .noticia-imagem-titulo h3 {
+		color: #c4160c;
+		font-size: 18px;
+	}
+
+	.destaqueComImagens .destaque p {
+		color: #c4160c;
+		font-size: 15px;
+		font-weight: 500;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #ebedef;
+	}
+
+	/* -----------NOTICIA DESTAQUE SEM IMAGES----------- */
+
+	.destaqueSemImagens {
+		display: inline-block;
+		padding: 0;
+	}
+
+	.destaqueSemImagens .destaque .noticia-imagem-titulo {
+		margin-top: 20px;
+	}
+
+	.destaqueSemImagens .destaque .noticia-imagem-titulo h2 {
+		display: none;
+	}
+
+	.destaqueSemImagens .destaque .noticia-imagem-titulo h3 {
+		color: #c4160c;
+		font-size: 18px;
+	}
+
+	.destaqueSemImagens .destaque p {
+		color: #c4160c;
+		font-size: 15px;
+		font-weight: 500;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #ebedef;
+	}
+
+	/* -----------NOTICIAS ESPORTE----------- */
+
+	.noticiasEsporteLateral {
+		display: inline-block;
+		padding: 0 auto;
+		max-width: 345px;
+	}
+
+	.noticiasEsporteLateral .noticia-lateral .noticia-imagem-titulo {
+		display: flex;
+		gap: 10px;
+		align-items: flex-start;
+		border-top: 1px solid #ebedef;
+		padding-top: 20px;
+	}
+
+	.noticiasEsporteLateral .noticia-lateral .noticia-imagem-titulo img {
+		max-width: 120px;
+	}
+
+	.noticiasEsporteLateral .noticia-lateral .noticia-imagem-titulo h2 {
+		display: none;
+	}
+
+	.noticiasEsporteLateral .noticia-lateral .noticia-imagem-titulo h3 {
+		color: #16ae54;
+		font-size: 18px;
+	}
+
+	.noticiasEsporteLateral .noticia-lateral p {
+		color: #16ae54;
+		font-size: 15px;
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+
+	/* -----------NOTICIAS GSH0W----------- */
+
+	.noticiasGshowLateral {
+		display: inline-block;
+		padding: 0 auto;
+		max-width: 345px;
+	}
+
+	.noticiasGshowLateral .noticia-lateral .noticia-imagem-titulo {
+		display: flex;
+		gap: 10px;
+		align-items: flex-start;
+		border-top: 1px solid #ebedef;
+		padding-top: 20px;
+	}
+
+	.noticiasGshowLateral .noticia-lateral .noticia-imagem-titulo img {
+		max-width: 120px;
+	}
+
+	.noticiasGshowLateral .noticia-lateral .noticia-imagem-titulo h2 {
+		display: none;
+	}
+
+	.noticiasGshowLateral .noticia-lateral .noticia-imagem-titulo h3 {
+		color: #ec8006;
+		font-size: 18px;
+	}
+
+	.noticiasGshowLateral .noticia-lateral p {
+		color: #ec8006;
+		font-size: 15px;
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+}
